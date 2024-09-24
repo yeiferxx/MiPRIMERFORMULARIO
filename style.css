@@ -300,7 +300,7 @@ textarea {
         display: none;
     }
 
-    .menu.navbar ul li {
+    .menu .navbar ul li {
         width: 100%;
     }
 
@@ -325,6 +325,71 @@ textarea {
 
     .header-img {
         width: 100%;
+    }
+    
+    .header-img img{
+        width: 100%;
+    }
+    
+    .about{
+        padding: 30px;
+        flex-direction: column;
+    }
+    
+    .about-img {
+        width: 100% ;
+        order: 2;
+    }
+    
+    .about-img img {
+        width: 100%;
+    }
+    
+    .about-txt {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    
+    .servicios {
+        padding: 30px;
+    }
+    
+    .servicios-content {
+        margin-top: 25px;
+        flex-direction: column;
+    }
+    
+    .servicio-1 {
+        margin-bottom: 20px;
+    }
+    
+    .formulario{
+        padding: 30px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    form {
+        width: 100%;
+    }
+    
+    .footer {
+        padding: 30px;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .link ul {
+        flex-direction: column;
+    }
+    
+    .link ul li {
+        margin: 0 0 15px 0;
     }
 
 }
